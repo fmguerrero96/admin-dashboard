@@ -187,7 +187,7 @@ div.user-account * {
     grid-column: 2/3;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
     padding: 2rem;
@@ -216,4 +216,28 @@ div.user-account * {
     background-color: rgb(213, 213, 213);
     padding: 2rem;
     border-radius: 0.5rem;
+}
+
+.ann-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: rgb(213, 213, 213);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 25px;
+    width: 280px;
+}
+
+.trend-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: rgb(213, 213, 213);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 25px;
+    width: 280px;
 }
