@@ -216,6 +216,20 @@ div.user-account * {
     background-color: rgb(213, 213, 213);
     padding: 2rem;
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+h5.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.interact {
+    align-self: flex-end;
+    margin-top: 30px;
 }
 
 .ann-container {
@@ -230,6 +244,11 @@ div.user-account * {
     width: 280px;
 }
 
+h5.anouncement-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 .trend-container {
     display: flex;
     flex-direction: column;
@@ -240,4 +259,23 @@ div.user-account * {
     border-radius: 0.5rem;
     margin-right: 25px;
     width: 280px;
+}
+
+.trend {
+    display: flex;
+    gap: 15px;
+}
+
+.trend-user {
+    font-weight: bold;
+}
+
+.trend-pic {
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
 }
