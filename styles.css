@@ -244,6 +244,14 @@ h5.card-title {
     width: 280px;
 }
 
+.notice-1, .notice-2 {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px 0 15px 0;
+}
+.notice-3{
+    padding: 10px 0 0px 0;
+}
+
 h5.anouncement-title {
     font-size: 1.1rem;
     font-weight: bold;
@@ -263,7 +271,8 @@ h5.anouncement-title {
 
 .trend {
     display: flex;
-    gap: 15px;
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
 .trend-user {
