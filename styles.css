@@ -25,6 +25,10 @@ time, mark, audio, video {
     box-sizing: border-box;
   }
 
+  html {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
 .main-container {
     display: grid;
     grid-template-columns: .75fr 4fr;
