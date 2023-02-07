@@ -70,6 +70,17 @@ div.search * {
     align-items: center;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.bell-icon, .search-icon {
+    width: 30px;
+    height: auto;
+}
+
 div.user-account * {
     margin: 0 15px 0 0;
     font-size: 1.2rem;
