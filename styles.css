@@ -72,7 +72,7 @@ div.search * {
 
 div.user-account * {
     margin: 0 15px 0 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .user-account > .bell-icon {
@@ -107,13 +107,13 @@ div.user-account * {
 
 .profile-name {
     grid-area: 2/2/3/3;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 .handle{
     grid-area: 2/3/3/4;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -125,10 +125,10 @@ div.user-account * {
 }
 
 .btn {
-    width: 100px;
-    height: 2.5rem;
+    width: 120px;
+    height: 2.7rem;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 800;
     border-radius: 20px;
     background-color: rgb(0, 74, 138);
     color: rgb(255, 255, 255);
@@ -145,7 +145,7 @@ div.user-account * {
     grid-template-columns: 100%;
     grid-template-rows: 15% 35% 45%;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .sidebar-title {
@@ -153,8 +153,8 @@ div.user-account * {
     justify-content: flex-start;
     align-items: center;
     padding-left: 30px;
-    font-weight: 900;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 1.7rem;
 }
 
 .dash-content {
@@ -171,9 +171,22 @@ div.user-account * {
     padding-left: 30px;
 }
 
+.dash-icon {
+    width: 50px;
+    height: auto;
+}
+
+.side-icon, .help-icon {
+    width: 35px;
+    height: auto;
+}
 
 .dash-tabs, .help{
     list-style-type: none;
+}
+
+.help-tab, .side-tab {
+    align-self: flex-start;
 }
 
 .side-icon, .help-icon, .dash-icon {
@@ -182,6 +195,8 @@ div.user-account * {
 
 .dash-item, .help-item {
     margin-bottom: 20px;
+    display: flex;
+    align-self: center;
 }
 
 /* -------------------------MAIN CONTENT------------------------------*/
