@@ -79,6 +79,7 @@ div.search * {
 .bell-icon, .search-icon {
     width: 30px;
     height: auto;
+    cursor: pointer;
 }
 
 div.user-account * {
@@ -265,6 +266,10 @@ div.user-account * {
 .interact-icon {
     width: 25px;
     height: auto;
+}
+
+.card-text, .announcement-text, .trend-text {
+    color: rgb(107, 107, 107);
 }
 
 h5.card-title {
