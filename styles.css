@@ -328,7 +328,9 @@ h5.anouncement-title {
 }
 
 .trend-pic {
-    font-size: 2rem;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
 }
 
 h3 {
